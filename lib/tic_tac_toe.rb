@@ -85,7 +85,11 @@ def won?(board)
   end
 end
 
-
+def check_win_combination?(board, player, win_combo)
+  win_combo.all? do |position|
+    board[position] == player
+  end
+end
 
 def full?(board)
 end 
