@@ -66,8 +66,6 @@ end
 return current_player
 end
 
-end
-
 def won?(board)
 end
 
