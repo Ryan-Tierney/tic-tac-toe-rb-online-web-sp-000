@@ -48,5 +48,5 @@ def turn(board)
     display_board(board)
   else 
     puts "Nuh uh Motha fucka"
-  else 
+    turn(board)
 end 
