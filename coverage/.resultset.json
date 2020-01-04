@@ -2,9 +2,27 @@
   "RSpec": {
     "coverage": {
       "/home/victorious-flow-1457/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
-
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        null,
+        null
       ]
     },
-    "timestamp": 1578110395
+    "timestamp": 1578110431
   }
 }
