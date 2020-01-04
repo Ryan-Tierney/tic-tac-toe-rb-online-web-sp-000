@@ -43,6 +43,10 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index)
-    puts "Valid Move"
+    puts "I guess thats a good move, chump"
+    move(board, index, token)
+    board[index] = token
+  else 
+    puts "Nuh uh Motha fucka"
   else 
 end 
