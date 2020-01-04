@@ -54,14 +54,14 @@ def turn(board)
   display_board(board)
 end 
 
-def turn_count
+def turn_count(board)
 end
 
-def current_player
+def current_player(board)
 end
 
-def won?
+def won?(board)
 end
 
-def full?
+def full?(board)
 end 
