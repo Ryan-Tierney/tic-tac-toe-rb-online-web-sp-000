@@ -22,5 +22,6 @@ WIN_COMBINATIONS = [
     index 
   end 
   
-  def move(board, index, char = X || O)
+  def move(board, index, char)
+    
     
