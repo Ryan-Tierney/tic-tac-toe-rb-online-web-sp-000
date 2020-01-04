@@ -92,5 +92,9 @@ def check_win_combination?(board, player, win_combo)
 end
 
 def full?(board)
-  
+   if board.include?(' ') || board.include?('')
+    return false
+else
+    return true
+  end
 end 
