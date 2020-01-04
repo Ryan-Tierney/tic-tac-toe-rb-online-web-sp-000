@@ -45,7 +45,7 @@ def turn(board)
   if valid_move?(board, index)
     puts "I guess thats a good move, chump"
     move(board, index, token)
-    board[index] = token
+    display_board(board)
   else 
     puts "Nuh uh Motha fucka"
   else 
