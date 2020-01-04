@@ -22,7 +22,7 @@ def input_to_index(move)
     index 
 end 
   
-def move(board, index, token)
+def move(board, index)
   board[index] = token
 end 
     
@@ -44,7 +44,7 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board, index)
     puts "I guess thats a good move, chump"
-    move(board, index, token)
+    move(board, index)
     display_board(board)
   else 
     puts "Nuh uh Motha fucka"
