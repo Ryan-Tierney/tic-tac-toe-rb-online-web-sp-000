@@ -42,6 +42,7 @@ def turn(board)
   puts "take yo turn bitch"
   user_input = gets.strip
   index = input_to_index(user_input)
+  token = current_player(board)
   if valid_move?(board, index)
     puts "I guess thats a good move, chump"
     move(board, index, token)
@@ -51,4 +52,16 @@ def turn(board)
     turn(board)
   end 
   display_board(board)
+end 
+
+def turn_count
+end
+
+def current_player
+end
+
+def won?
+end
+
+def full?
 end 
