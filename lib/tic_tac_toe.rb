@@ -76,7 +76,7 @@ end
 def won?(board)
    if WIN_COMBINATIONS
      return true 
-   else 
+   elsif draw?(board) 
      return false 
   end 
 end 
