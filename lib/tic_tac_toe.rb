@@ -18,4 +18,4 @@ WIN_COMBINATIONS = [
   end 
   
   def input_to_index(move)
-    
+    index = move_to_i
