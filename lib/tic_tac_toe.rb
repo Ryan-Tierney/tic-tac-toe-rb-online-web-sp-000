@@ -42,7 +42,7 @@ def turn(board)
   puts "take yo turn bitch"
   user_input = gets.strip
   index = input_to_index(user_input)
-  if valid_move?(board, index
+  if valid_move?(board, index)
     puts "I guess thats a good move, chump"
     move(board, index, token)
     display_board(board)
