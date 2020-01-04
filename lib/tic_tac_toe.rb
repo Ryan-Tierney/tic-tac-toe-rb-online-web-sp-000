@@ -38,6 +38,9 @@ def valid_move?(board, index)
   end 
 end
 
-def turn
+def turn(board)
+  puts "take yo turn bitch"
+  user_input = gets.strip
+  
   
 end 
