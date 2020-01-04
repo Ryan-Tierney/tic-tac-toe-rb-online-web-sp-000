@@ -74,7 +74,15 @@ return current_player
 end
 
 def won?(board)
-  
+   WIN_COMBINATIONS.each do |win_combo|
+    if check_win_combination?(board, 'X', win_combo)
+      return win_combo
+    elsif check_win_combination?(board, 'O', win_combo)
+      return win_combo
+    else
+      return false
+    end
+  end
 end
 
 def full?(board)
