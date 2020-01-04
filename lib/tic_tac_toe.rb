@@ -105,3 +105,12 @@ def draw?(board)
   end
 end
 
+def over?(board)
+  puts 'is it over?'
+  if won?(board) || draw?(board) || full?(board)
+    return true
+  else
+    puts 'no keep going'
+    return false
+  end
+end
