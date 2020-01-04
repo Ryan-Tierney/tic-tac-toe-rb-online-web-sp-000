@@ -43,5 +43,4 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index 
   token = current_player(board)
-  
 end 
