@@ -92,4 +92,5 @@ def check_win_combination?(board, player, win_combo)
 end
 
 def full?(board)
+  
 end 
